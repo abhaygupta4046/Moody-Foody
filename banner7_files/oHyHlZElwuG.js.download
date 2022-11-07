@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("shouldDisplayLoggedOutHighlights",["PolarisLoggedOutLoginConstants","PolarisUA","PolarisisUserLoggedIn","qex"],(function(a,b,c,d,e,f,g){"use strict";function a(a){return!d("PolarisisUserLoggedIn").isUserLoggedIn()&&!d("PolarisUA").isDesktop()&&a!=null&&a>=d("PolarisLoggedOutLoginConstants").MIN_FOLLOWERS_LOGGED_OUT_HIGHLIGHTS&&c("qex")._("70")===!0}g["default"]=a}),98);
